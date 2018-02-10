@@ -1,0 +1,115 @@
+html, body {
+		    max-width: 100%;
+		    overflow-x: hidden;
+		    background: #242f38;
+					}
+
+		.bg-dark {
+			margin-bottom: 0;
+			border-radius: 0;
+			background-color: #1b2329 !important;
+			color: #FFF;
+			padding: 1% 0;
+			font-size: 1.2em;
+			border: 0;
+			
+		}
+		.navbar-brand{
+			float: left;
+			min-height: 55px;
+			padding: 0 0 0 5px;
+		}
+		.btn1{
+			margin-right: 10px;
+		}
+		.nav-item a:hover{
+			color:#D5D5D5;
+		}
+		.carousel-caption{
+			top: 50%;
+			transform: translateY(-50%);
+			text-transform: uppercase;
+		}
+
+		.btn{
+			font-size: 18px;
+			color: #FFF;
+			padding: 12px 22px;
+			background: #364856;
+			border: 2px solid #FFF;
+		}
+		.btn:hover{
+			background:#566068
+		}
+		.carousel-item img{
+			height: 1180px;
+		}
+		.container{
+			color: #FFF;
+			margin: 2% auto;
+		}
+		#icon{
+			max-width: 300px;
+			min-width: 300px;
+			margin: 1% auto;
+		}
+		.row{
+			color: #FFF;
+		}
+		#img-responsive{
+			width: 100%;
+			height: 500px;
+		}
+		footer{
+			width: 100%;
+			background-color: #1b2329;
+			padding: 5%;
+			color: #FFF;
+		}
+		.fa{
+			padding: 15px;
+			font-size: 30px;
+			color: #FFF;
+		}
+		.fa:hover{
+			color:#D5D5D5;
+			text-decoration: none;
+		}
+		.content{
+			margin-top: 100px;
+		}
+		.logoMarginTop{
+			margin-top: 70px;
+		}
+		#headerMargin{
+			margin-bottom: 50px;
+		}
+		@media(max-width: 600px){
+			.fa{
+				font-size: 20px;
+				padding: 10px;
+			}
+		}
+		@media (max-width: 600px) {
+			.carousel-caption{
+				display: none;
+			}
+			.carousel-item img{
+				min-height: 0;
+				height: 257px;
+			}
+			#icon{
+			max-width: 150px;
+			}
+			h2{
+				font-size: 1.7em;
+			}
+			
+		}
+		@media(max-width: 1024px){
+			.carousel-item img{
+				min-height: 0;
+				height: 600px;
+			}
+			
+		}
